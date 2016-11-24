@@ -1,0 +1,25 @@
+<template>
+  <require from="./nav-bar.html"></require>
+  <!--
+    <md-colors md-primary-color.bind="primaryColor" md-accent-color.bind="accentColor"></md-colors>
+  <app-colors primary-color.bind="primaryColor" accent-color.bind="accentColor"></app-colors>
+  -->
+
+  <loading-indicator></loading-indicator>
+  <header>
+    <nav-bar router.bind="router"></nav-bar>
+  </header>
+
+ <main>
+
+  <div class="page-host">
+    <router-view></router-view>
+  </div>
+
+  </main>
+
+   <footer>
+      <!-- placeholder footer -->
+    </footer>
+
+</template>
