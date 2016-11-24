@@ -1,8 +1,9 @@
 ﻿import {Aurelia} from 'aurelia-framework';
 // we want font-awesome to load as soon as possible to show the fa-spinner
-import '../styles/styles.css';
+
 import 'font-awesome/css/font-awesome.css';
 import 'materialize-css';
+import '../styles/styles.css';
 
 // comment out if you don't want a Promise polyfill (remove also from webpack.config.js)
 import * as Bluebird from 'bluebird';

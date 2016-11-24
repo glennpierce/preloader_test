@@ -12,14 +12,9 @@ export class App {
   configureRouter(config: RouterConfiguration, router: Router) {
     config.title = 'Shimmy';
 
-    // config.map([
-    //   { route: '/', name: 'yourhome', moduleId: "./shimmy_section", nav:true},
-    // ]);
-
     config.map([
       { name: 'test',  route: ['', 'test'],  moduleId: './test',   title: 'About' },
     ]);
-
 
     this.router = router;
   }

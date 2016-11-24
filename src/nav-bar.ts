@@ -1,7 +1,5 @@
-
-export class Test {
+export class NavBar {
 
   constructor() {    
-
   }
 }
